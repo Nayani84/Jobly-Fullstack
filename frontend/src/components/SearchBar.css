@@ -1,0 +1,33 @@
+/* Container styling for the search bar */
+.SearchBar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.SearchBar-container form {
+    width: 90%;
+}
+
+.SearchBar-container input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.SearchBar-container input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+.SearchBar-container input::placeholder {
+    font-size: 14px;
+    color: #888;
+}

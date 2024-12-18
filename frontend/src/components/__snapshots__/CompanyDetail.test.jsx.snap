@@ -1,0 +1,60 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CompanyDetail Component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CompanyDetail"
+  >
+    <h2>
+      Test Company
+    </h2>
+    <p
+      class="ComSum"
+    >
+      This is a test company.
+    </p>
+    <ul>
+      <div
+        class="JobCard"
+      >
+        <div>
+          <h3>
+            Software Engineer
+          </h3>
+          <p>
+            Salary: $100000
+          </p>
+          <p>
+            Equity: 0.1
+          </p>
+        </div>
+        <button
+          class="btn-apply"
+        >
+          Apply
+        </button>
+      </div>
+      <div
+        class="JobCard"
+      >
+        <div>
+          <h3>
+            Data Scientist
+          </h3>
+          <p>
+            Salary: $120000
+          </p>
+          <p>
+            Equity: 0.05
+          </p>
+        </div>
+        <button
+          class="btn-apply"
+        >
+          Apply
+        </button>
+      </div>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

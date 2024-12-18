@@ -1,0 +1,77 @@
+/* CompanyDetail.css */
+
+.CompanyDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .CompanyDetail h3 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    margin: 8px 0px;
+    color: #333;
+  }
+  
+  .CompanyDetail .ComSum {
+    text-align: center;
+  }
+  
+  .CompanyDetail p {
+    margin: 4px 0;
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled,
+  button.btn-disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  button.btn-apply {
+    background-color: #28a745;
+  }
+  
+  button.btn-apply:hover {
+    background-color: #218838;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }

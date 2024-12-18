@@ -1,0 +1,35 @@
+/* General container styling */
+.Home {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  h1 span {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  h1.loading {
+    font-size: 28px;
+    color: #555;
+  }
+  
+  h1.welcome {
+    color: #555;
+    font-size: 22px;
+    margin-top: 20px;
+  }

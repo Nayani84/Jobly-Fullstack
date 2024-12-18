@@ -1,0 +1,72 @@
+/* General JobCard container styling */
+.JobCard {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .JobCard div {
+    margin: 10px 0px;
+    width: 85%;
+  }
+  
+  .JobCard:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .JobCard h3 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    margin: 8px 0px;
+    color: #333;
+  }
+  
+  .JobCard p {
+    margin: 4px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled,
+  button.btn-disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  button.btn-apply {
+    background-color: #28a745;
+  }
+  
+  button.btn-apply:hover {
+    background-color: #218838;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }

@@ -1,0 +1,55 @@
+ /* General styles for the nav */
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  nav a:first-child {
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+  }
+ 
+  nav a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+ 
+  nav span {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+ 
+  nav a:hover {
+    color: #007bff;
+  }
+ 
+  nav button,
+  nav span {
+    margin-left: 15px;
+    font-size: 16px;
+  }
+ 
+  nav button {
+    border: none;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+ 
+  nav button:hover {
+    background-color: #0056b3;
+  }

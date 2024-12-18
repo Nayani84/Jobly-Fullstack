@@ -1,0 +1,33 @@
+/* General styling for the company list */
+div {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .CompanyCard {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CompanyCard h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .CompanyCard p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  div p {
+    text-align: left;
+    font-size: 18px;
+    color: #888;
+  }
